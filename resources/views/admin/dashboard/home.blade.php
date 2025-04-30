@@ -1,0 +1,13 @@
+@extends('admin.dashboard.master')
+@section('title','Dashboard')
+@section('header')
+    @include('admin.dashboard.header')
+@endsection
+@section('nav')
+    @include('admin.dashboard.nav')
+@endsection
+@section('page','Dashboard')
+@section('main')
+    @include('admin.dashboard.main')
+    @include('admin.dashboard.dashboard')
+@endsection
